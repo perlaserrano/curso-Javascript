@@ -1,0 +1,121 @@
+//tipos de datos
+"Hello Word" // string
+'Hello Word' //string
+
+console.log('this is a string');
+
+1000000 //number
+-2.3
+
+
+//boolean
+true
+false
+
+//array
+    ['joe', 'ryan', 'martha']
+    [true,false,true,false]
+
+    //object
+    'ryan'
+    70.4
+    14
+    true
+
+    {
+        "username":'ryan',
+        "score":70.4,
+        "hours":14,
+        "proffesional":true,
+        
+    }
+
+    {
+        "username":'perla',
+        "score":20,
+        "hours":1,
+        "proffesional":false,
+        
+    }
+
+//  estoy creando variables
+
+
+ var nombredelusuario = "john";
+ let lastname = "carter";
+
+// reasignando el valor de la variable nameuser 
+
+ nameuser = 'pepe';
+
+ const  PI = 3.1415
+
+
+
+console.log(PI);
+
+//camelcase 
+
+let userName = 'perla';
+
+
+
+let passwordDB = 'pepe123'
+
+let input = 'pepe123'
+
+
+
+  let result = input == passwordDB;
+
+  console.log(result);
+
+
+
+let passwordDB = 'pepe123'
+
+let input = 'pepe123'
+
+//condicionales
+
+/*
+if (result == true) {
+  console.log("login correcto");
+
+} else{
+  console.log('contraseña incorrecta');
+}
+*/
+
+
+  let result = input == passwordDB;
+
+let score =70;
+
+if (score > 30 ) {
+  console.log('nesecitas practicar mas');
+} else if (score > 15 ) {
+  console.log('estas mejorando');
+} 
+else{
+  console.log('nesecitas seguir un tutorial');
+}
+
+
+let typeCard = 'xfdfsdfs';
+
+//condicionales
+
+switch(typeCard) {
+  case 'debid card':
+    console.log("this is a debid card");
+    break;
+    case 'credit card':
+      console.log("this is a debid card");
+    break;
+    default:
+      console.log('no card');
+}
+
+
+
