@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercisio DOM,Eventos y funciones</title>
+    <script src="32-ejercisio-dom.js"></script>
+    <style>
+        .container {
+            display: flex;
+        }
+        .box {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+        }
+
+        .dashed {
+            border: 3px dashed black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+      1.Formulario con los campos nombres,apellidos y edad
+      2.Boton de enviar el formulario: eventos submit
+      3.Mostrar datos por pantalla
+      4.validacion del formulario
+
+    -->
+    <h1>Ejercisio DOM , Eventos y funciones curso js Perla Serrano Web</h1>
+
+
+
+    <div class="container">
+        <div class="box">
+
+
+            <form action="#" method="POST" id="formulario" onsubmit="return false;">
+
+                <label for="nombre">Nombre:</label> <br />
+                <input type="text" name="nombre" id="nombre" /> <br />
+
+                <span id="error_nombre"></span>
+
+                <label for="apellidos">Apellidos:</label> <br />
+                <input type="text" name="apellidos" id="apellidos" /> <br />
+
+                <label for="edad">Edad:</label> <br />
+                <input type="number" name="edad" id="edad" /> <br />
+
+                <input type="submit" value="enviar" id="submit" />
+
+            </form>
+
+
+
+        </div>
+
+        <div class="box dashed">
+            <h3>Informacion del usuario</h3>
+            <hr>
+            <p id="p_nombre">
+                Nombre: <span></span>
+
+            </p>
+            <p id="p_apellido">
+                Apellido: <span></span>
+
+            </p>
+            <p id="p_edad">
+                Edad: <span></span>
+
+            </p>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
