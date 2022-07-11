@@ -21,7 +21,16 @@ boton.addEventListener("click", () => {
     boton.style.border = "1px solid #ccc";
 
     return true;
-})
+});
+
+var boton = document.querySelector("#boton");
+
+// Click
+
+boton.addEventListener('click', () =>{
+    console.log(this);
+    this.style.border = "10px solid black";
+});
 
 // Mouse over
 
